@@ -28,22 +28,23 @@ class CANComms:
         buffer[1] = rpm >> 16 & 0x0FFF
         buffer[2] = rpm >> 8 & 0x00FF
         buffer[3] = rpm & 0x00FF
-        print(buffer)
+        print(list(hex(i) for i in buffer))
         id = channel_id | self.CAN_PACKET_SET_RPM << 8
-        print(hex(channel_id))
+        print(hex(id))
         self.can_transmit(id, buffer, len(buffer))
         
         
     def can_transmit(self, id, data, length):
         if length > 8:
             length = 8
-        bus = can.Bus(channel="can0", interface='socketcan')
-        msg = can.Message(arbitration_id=0x00002968, data=[0, data[0], data[1], data[2],data[3]], is_extended_id=True)
-        bus.send(msg)
+        with can.Bus(channel="can0", interface='socketcan')as bus:
+            msg = can.Message(arbitration_id=id, data=[data[0], data[1], data[2],data[3], 0, 0, 0, 0], is_extended_id=True)
+            bus.send(msg)
+            print(bus.channel_info)
 
 if __name__ == "__main__":
 
     c = CANComms(0, 1000000)
     #c.setup()
-    c.comm_can_set_rpm(0x00002968, 5000)
+    c.comm_can_set_rpm(0x00002968, 12000)
 
