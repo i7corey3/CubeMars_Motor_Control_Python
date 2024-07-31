@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating ak_driver.egg-info
+writing ak_driver.egg-info/PKG-INFO
+writing dependency_links to ak_driver.egg-info/dependency_links.txt
+writing entry points to ak_driver.egg-info/entry_points.txt
+writing requirements to ak_driver.egg-info/requires.txt
+writing top-level names to ak_driver.egg-info/top_level.txt
+writing manifest file 'ak_driver.egg-info/SOURCES.txt'
+reading manifest file 'ak_driver.egg-info/SOURCES.txt'
+writing manifest file 'ak_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/lib/python3.8/site-packages/site.py
+Creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/lib/python3.8/site-packages/ak-driver.egg-link (link to .)
+Installing control script to /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/lib/ak_driver
+
+Installed /home/corey/CubeMars_Motor_Control_Python/build/ak_driver
+running symlink_data
+creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ament_index
+creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ament_index/resource_index
+creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ament_index/resource_index/packages
+symbolically linking /home/corey/CubeMars_Motor_Control_Python/build/ak_driver/resource/ak_driver -> /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ament_index/resource_index/packages
+symbolically linking /home/corey/CubeMars_Motor_Control_Python/build/ak_driver/package.xml -> /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ak_driver
+creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ak_driver/launch
+symbolically linking /home/corey/CubeMars_Motor_Control_Python/build/ak_driver/launch/ak_driver.launch.py -> /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ak_driver/launch
+creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ak_driver/config
+symbolically linking /home/corey/CubeMars_Motor_Control_Python/build/ak_driver/config/params.yaml -> /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ak_driver/config

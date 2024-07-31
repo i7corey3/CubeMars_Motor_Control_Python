@@ -1,0 +1,29 @@
+[0.540s] Invoking command in '/home/corey/CubeMars_Motor_Control_Python/build/ak_driver': PYTHONPATH=/home/corey/CubeMars_Motor_Control_Python/build/ak_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corey/CubeMars_Motor_Control_Python/install/ak_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/corey/CubeMars_Motor_Control_Python/build/ak_driver/build --no-deps symlink_data
+[0.729s] running develop
+[0.862s] running egg_info
+[0.863s] creating ak_driver.egg-info
+[0.863s] writing ak_driver.egg-info/PKG-INFO
+[0.863s] writing dependency_links to ak_driver.egg-info/dependency_links.txt
+[0.863s] writing entry points to ak_driver.egg-info/entry_points.txt
+[0.863s] writing requirements to ak_driver.egg-info/requires.txt
+[0.863s] writing top-level names to ak_driver.egg-info/top_level.txt
+[0.865s] writing manifest file 'ak_driver.egg-info/SOURCES.txt'
+[0.887s] reading manifest file 'ak_driver.egg-info/SOURCES.txt'
+[0.887s] writing manifest file 'ak_driver.egg-info/SOURCES.txt'
+[0.913s] running build_ext
+[0.913s] Creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/lib/python3.8/site-packages/site.py
+[0.914s] Creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/lib/python3.8/site-packages/ak-driver.egg-link (link to .)
+[0.915s] Installing control script to /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/lib/ak_driver
+[0.915s] 
+[0.915s] Installed /home/corey/CubeMars_Motor_Control_Python/build/ak_driver
+[0.915s] running symlink_data
+[0.915s] creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ament_index
+[0.916s] creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ament_index/resource_index
+[0.916s] creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ament_index/resource_index/packages
+[0.916s] symbolically linking /home/corey/CubeMars_Motor_Control_Python/build/ak_driver/resource/ak_driver -> /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ament_index/resource_index/packages
+[0.916s] symbolically linking /home/corey/CubeMars_Motor_Control_Python/build/ak_driver/package.xml -> /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ak_driver
+[0.916s] creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ak_driver/launch
+[0.916s] symbolically linking /home/corey/CubeMars_Motor_Control_Python/build/ak_driver/launch/ak_driver.launch.py -> /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ak_driver/launch
+[0.916s] creating /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ak_driver/config
+[0.916s] symbolically linking /home/corey/CubeMars_Motor_Control_Python/build/ak_driver/config/params.yaml -> /home/corey/CubeMars_Motor_Control_Python/install/ak_driver/share/ak_driver/config
+[0.935s] Invoked command in '/home/corey/CubeMars_Motor_Control_Python/build/ak_driver' returned '0': PYTHONPATH=/home/corey/CubeMars_Motor_Control_Python/build/ak_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corey/CubeMars_Motor_Control_Python/install/ak_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/corey/CubeMars_Motor_Control_Python/build/ak_driver/build --no-deps symlink_data

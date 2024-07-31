@@ -1,0 +1,3 @@
+[console_scripts]
+control = ak_driver.ak_driver:main
+
